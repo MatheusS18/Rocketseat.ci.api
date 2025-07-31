@@ -2,8 +2,8 @@ name: CI
 
 jobs:
   build:
-  name: 'Build and Push'
-  runs-on: ubuntu-latest
+    name: 'Build and Push'
+    runs-on: ubuntu-latest
 
-  steps:
-  - uses: actions/checkout@v4
+    steps:
+    - uses: actions/checkout@v4
