@@ -27,4 +27,4 @@ jobs:
       run: npm run test
 
     - name: Build docker image
-      run: docker build -t Rocketsea-ci-api:latest .
+      run: docker build -t Rocketseat-ci-api:latest .
